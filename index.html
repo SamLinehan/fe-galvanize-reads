@@ -15,11 +15,20 @@
       <button class="booksButton" type="button" name="booksButton">Books</button>
     </section>
     <section class="booksList">
+      <form class="booksSearch" method="get">
+        <label for="booksSearch">Search for Books By Title Here: </label>
+        <input type="text" name="booksSearch" id="booksSearch">
+        <button type="submit" name="booksSearchSubmit">Search</button>
+      </form>
       <main class="booksListContainer"></main>
     </section>
     <section class="authorsList">
-      <h1>Test Authors List</h1>
-      <main></main>
+      <form class="authorsSearch" method="get">
+        <label for="authorsSearch">Search for Authors by Name Here: </label>
+        <input type="text" name="authorsSearch" id="authorsSearch">
+        <button type="submit" name="authorsSearchSubmit">Search</button>
+      </form>
+      <main class="authorsListContainer"></main>
     </section>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script src="./main.js"></script>

@@ -1,0 +1,23 @@
+header {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+}
+
+header h1 {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.booksList{
+  display: flex;
+}
+
+.booksListContainer{
+  display: flex;
+  flex-direction: column;
+}
